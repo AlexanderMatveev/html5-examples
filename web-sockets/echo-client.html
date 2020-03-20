@@ -102,7 +102,7 @@
             var bytes = [];
             for (var i = 0, len = data.length; i < len; i++) {
                 var value = data[i];
-                bytes[i] = value.toString(16);
+                bytes[i] = value.toString(32);
                 if (value < 16) {
                     bytes[i] = '0' + bytes[i];
                 }
